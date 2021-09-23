@@ -5,7 +5,7 @@ function love.load()
 end
 
 
-function love.update(dt)
+function love.update(dt) --DT signifie Delta time et c'est le temps qu'il faut pour fait une frame.
     Player:update(dt)
 end
 
