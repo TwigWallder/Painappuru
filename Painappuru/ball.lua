@@ -27,7 +27,7 @@ function Ball:collide()
         local middleBall = self.y + self.height / 2
         local middlePlayer = Player.y + Player.height / 2
         local collisionPosition = middleBall - middlePlayer
-        self.yVel = collisionPosition * 5 
+        self.yVel = collisionPosition * 5
     end
 
     if self.y < 0 then
