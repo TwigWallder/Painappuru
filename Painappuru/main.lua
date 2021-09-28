@@ -1,9 +1,13 @@
 require("player")
 require("ball")
+require("ai")
+require("background")
 
 function love.load()
     Player:load()
     Ball:load()
+    AI:load()
+    Background:load()
 end
 
 -----------------------------------------------------------------
@@ -11,13 +15,17 @@ end
 function love.update(dt) --DT signifie Delta time et c'est le temps qu'il faut pour fait une frame.
     Player:update(dt)
     Ball:update(dt)
+    AI:update(dt)
+    Background:update(dt)
 end
 
 -----------------------------------------------------------------
 
 function love.draw()
+    Background:draw()
     Player:draw()
     Ball:draw()
+    AI:draw()  
 end
 
 -----------------------------------------------------------------

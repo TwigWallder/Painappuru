@@ -6,8 +6,8 @@ function Player:load()
    self.x = 50 
    self.y = love.graphics.getHeight() / 2
    self.width = 20
-   self.height = 100 
-   self.speed = 500 
+   self.height = 100
+   self.speed = 850
 end
 
 -----------------------------------------------------------------
@@ -40,5 +40,5 @@ end
 -----------------------------------------------------------------
 
 function Player:draw()
-   love.graphics.rectangle("fill", self.x, self.y, self.width, self.height) 
+   love.graphics.rectangle("fill", self.x, self.y, self.width, self.height)
 end
