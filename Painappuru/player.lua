@@ -3,10 +3,11 @@
 Player = {} 
 
 function Player:load()
+   self.img = love.graphics.newImage("assets/player.png")
    self.x = 50 
    self.y = love.graphics.getHeight() / 2
-   self.width = 20
-   self.height = 100
+   self.width = self.img:getWidth()
+   self.height = self.img:getHeight()
    self.speed = 850
 end
 
@@ -20,7 +21,7 @@ end
 -----------------------------------------------------------------
 
 function Player:move(dt)
-   if love.keyboard.isDown("w") then 
+   if love.keyboard.isDown("z") then 
       self.y = self.y - self.speed * dt
    elseif love.keyboard.isDown("s") then 
       self.y = self.y + self.speed * dt
@@ -40,5 +41,5 @@ end
 -----------------------------------------------------------------
 
 function Player:draw()
-   love.graphics.rectangle("fill", self.x, self.y, self.width, self.height)
+   love.graphics.draw(self.img, self.x, self.y) 
 end

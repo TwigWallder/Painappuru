@@ -8,7 +8,7 @@ function Ball:load()
     self.y = love.graphics.getHeight() / 2
     self.width = self.img:getWidth()
     self.height = self.img:getHeight()
-    self.speed = 1000
+    self.speed = 1500
     self.xVel = -self.speed
     self.yVel = 0
 end
