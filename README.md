@@ -5,4 +5,5 @@ Just a simple game created with the framework Löve and with the Lua language
 <a href="https://love2d.org/">The framework Löve</a>
 
 <h3>How to Dowload</h3>
-Coming soon
+Open the .zip and take the file "Painappuru".
+Drag & Drop the file on LOVE
