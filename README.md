@@ -11,6 +11,10 @@ Just a simple game created with the framework Löve and with the Lua language
 
 <h4>Inputs</h4>
 
-Player (Right):         Player (Left):
-Z (up)                  O (up)
-S (down)                L (down)
+Player (Right):        
+Z (up)                 
+S (down)               
+
+Player (Left):
+O (up)
+L (down)
