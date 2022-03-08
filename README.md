@@ -8,3 +8,9 @@ Just a simple game created with the framework Löve and with the Lua language
 -Open the .zip </br>
 -take the file "Painappuru" </br> 
 -Drag & Drop the file on LOVE
+
+<h4>Inputs</h4>
+
+Player (Right):         Player (Left):
+Z (up)                  O (up)
+S (down)                L (down)
