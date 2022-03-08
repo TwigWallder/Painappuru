@@ -37,7 +37,7 @@ end
 
 -----------------------------------------------------------------
 
-function AI:acquireTarget()
+function AI:acquireTarget() --Gestion du bot
     if Ball.y + Ball.height < self.y then
         self.yVel = -self.speed
     elseif Ball.y > self.y + self.height then

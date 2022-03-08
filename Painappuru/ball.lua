@@ -3,12 +3,12 @@ Ball = {}
 
 
 function Ball:load()
-    self.img = love.graphics.newImage("assets/granier.png") 
+    self.img = love.graphics.newImage("assets/ball.png") 
     self.x = love.graphics.getWidth() / 2
     self.y = love.graphics.getHeight() / 2
     self.width = self.img:getWidth()
     self.height = self.img:getHeight()
-    self.speed = 1500 
+    self.speed = 750
     self.xVel = -self.speed
     self.yVel = 0
 end

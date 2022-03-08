@@ -7,7 +7,7 @@ function love.load()
     Player:load()
     Ball:load()
     AI:load()
-    Background:load()
+    --Background:load()
 end
 
 -----------------------------------------------------------------
@@ -16,13 +16,13 @@ function love.update(dt) --DT signifie Delta time et c'est le temps qu'il faut p
     Player:update(dt)
     Ball:update(dt)
     AI:update(dt)
-    Background:update(dt)
+    --Background:update(dt)
 end
 
 -----------------------------------------------------------------
 
 function love.draw()
-    Background:draw()
+    --Background:draw()
     Player:draw()
     Ball:draw()
     AI:draw()  
