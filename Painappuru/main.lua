@@ -12,7 +12,7 @@ end
 
 -----------------------------------------------------------------
 
-function love.update(dt) --DT signifie Delta time et c'est le temps qu'il faut pour fait une frame.
+function love.update(dt) 
     Player:update(dt)
     Ball:update(dt)
     AI:update(dt)
